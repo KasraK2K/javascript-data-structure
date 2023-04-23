@@ -10,6 +10,8 @@ ___
 
 ## 2. Remove Constants
 
+Do not forget to drop the constants for example in we have a function with `O(2n) notation` we can simply consider that as a `O(n)` so we droped `2` in this example.
+
 &nbsp;
 ___
 
