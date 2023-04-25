@@ -3,7 +3,7 @@
 var nemo = ['nemo'];
 
 /**
- * @param array {string[]}
+ * @param {string[]} array
  */
 function findNemo(array) {
   for (let i = 0; i < array.length; i++) {
