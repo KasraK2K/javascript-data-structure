@@ -1,4 +1,4 @@
-// `Linear Time` - Increase data is equal to increase number of operation linear
+// `Linear Time O(n)` - Increase data is equal to increase number of operation linear
 
 var nemo = ['nemo'];
 

@@ -1,4 +1,4 @@
-// `Constant Time` - No defrences by increase data it takes constant time
+// `Constant Time O(1)` - No defrences by increase data it takes constant time
 
 var names = Array(1000).fill("Kasra");
 
