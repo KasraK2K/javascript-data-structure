@@ -18,6 +18,7 @@ ___
 ## 3. Different terms for inputs
 
 When we have nested loop we are iterating multiple so the BigO number comes by using multiplier. for example when we have two nested loop we have two O(n) and they have to multiply to gether so the O notation finaly is `O(n^2)`
+And considered that if we have two different input and loop throw them but it's not nested and it should add to gether then the o notation finally is `O(n)`
 
 &nbsp;
 ___
