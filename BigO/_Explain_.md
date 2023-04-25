@@ -17,7 +17,7 @@ ___
 
 ## 3. Different terms for inputs
 
-When we have multiple input and iterate to it for each iterate we should considered as a pawn for example when we have 2 input and iterate of each of them in separated loop BigO is O(n^2)
+When we have nested loop we are iterating multiple so the BigO number comes by using multiplier. for example when we have two nested loop we have two O(n) and they have to multiply to gether so the O notation finaly is `O(n^2)`
 
 &nbsp;
 ___
