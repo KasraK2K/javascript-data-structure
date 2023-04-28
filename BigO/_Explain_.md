@@ -23,7 +23,7 @@ And considered that if we have two different input and loop throw them but it's 
 &nbsp;
 ___
 
-## 4. Drop Non Dominants
+## 4. Drop Non-dominants
 
 We always care the dominant term so if we have a function that run two different loop one of then `O(n)` and another one `O(n^2)` BigO is `O(n^2)`.
 
