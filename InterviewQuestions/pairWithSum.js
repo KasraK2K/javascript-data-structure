@@ -19,3 +19,16 @@ function sortedHasPairWithSum(arr, sum) {
 
 const resultOne = sortedHasPairWithSum([1, 2, 4, 4], 8);
 console.log(resultOne);
+
+function unsortedHasPairWithSum(data, sum) {
+  let complements = new Set();
+  for (let value of data) {
+    if (complements.has(value))
+      return { found: true, values: [sum - value, value] };
+    complements.add(sum - value);
+  }
+  return { found: false, values: [] };
+}
+
+const resultTwo = unsortedHasPairWithSum([1, 2, 4, 4], 8);
+console.log(resultTwo);
